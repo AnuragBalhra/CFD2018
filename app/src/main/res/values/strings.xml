@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CFD2018</string>
+    <string name="facebook_app_id">142556293120339</string>
+    <string name="fb_login_protocol_scheme">fb142556293120339</string>
 </resources>

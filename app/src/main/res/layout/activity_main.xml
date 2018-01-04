@@ -6,13 +6,44 @@
     android:layout_height="match_parent"
     tools:context="com.example.abhishek.cfd2018.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:id="@+id/text1"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:text="Welcome to CFD 2018 !" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/text1"
+            android:id="@+id/txtStatus"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:text="fgdgd" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
